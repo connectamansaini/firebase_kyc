@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "167066440281",
+    "project_id": "kyc-firebase",
+    "storage_bucket": "kyc-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167066440281:android:649f46fdce3f4655dbd748",
+        "android_client_info": {
+          "package_name": "com.example.firebase_kyc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167066440281-onar1h8abfld36ejinmre8gee0otn4h8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_kyc",
+            "certificate_hash": "2c2d885a66e763f628436759fcfe50107acf0dd6"
+          }
+        },
+        {
+          "client_id": "167066440281-ihqj25cnh2rf6v7mngsc3omgvh06p80b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX1EyWxSV8_g2ZFB7P2PByRfMxJmgH4wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167066440281-ihqj25cnh2rf6v7mngsc3omgvh06p80b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
