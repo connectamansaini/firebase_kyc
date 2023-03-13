@@ -83,7 +83,6 @@ class _CreateUserViewState extends State<CreateUserView> {
             }
             if (state.cameraPermissionStatus ==
                 CameraPermissionStatus.granted) {
-              // TODO(ask): If cameraPermission is already granted then what will happen in this listener
               context.read<ImagePickerBloc>().add(CameraPhotoPicked());
             }
           },
@@ -171,7 +170,6 @@ class _CreateUserViewState extends State<CreateUserView> {
                       child: OutlinedButton.icon(
                         icon: const Icon(Icons.camera_alt),
                         label: const Text('Upload photo'),
-                        // TODO(ask): Why this onPressed opens camera
                         onPressed: () {
                           context
                               .read<PermissionBloc>()

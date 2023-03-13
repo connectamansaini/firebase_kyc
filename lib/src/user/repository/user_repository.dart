@@ -6,12 +6,11 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class UserRepository {
+  final db = FirebaseFirestore.instance;
   Future<void> addData(
     User user,
     String agentId,
   ) async {
-    final db = FirebaseFirestore.instance;
-
     await db
         .collection('agents')
         .doc(agentId)
@@ -22,8 +21,6 @@ class UserRepository {
 
   Future<List<User>> getUsers(String agentId) async {
     try {
-      final db = FirebaseFirestore.instance;
-
       final snapshot =
           await db.collection('agents').doc(agentId).collection('users').get();
       final data = snapshot.docs;
